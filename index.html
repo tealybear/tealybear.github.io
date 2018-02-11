@@ -4,97 +4,81 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="./css/stylesheet.css">
-	<body style="background-color:powderblue;">
-
-	<!-- Navbar (sit on top) -->
-	<div class="w3-bar w3-grey w3-wide w3-padding w3-card-2">
-		<a href="#home" style="background-color:powderblue;" class="w3-bar-item w3-button"><b>TealyBear</b> <i>David Lee Garcia</i></a>
-
-	<!-- Float links to the right. Hide them on small screens -->
-	<div class="w3-right w3-hide-small">
-	  <a href="#about" style="background-color:powderblue;" class="w3-bar-item w3-button">About</a>
-	  <a href="#skills" style="background-color:powderblue;" class="w3-bar-item w3-button">Skills</a>
-	  <a href="https://github.com/tealybear" target="_blank" style="background-color:powderblue;" class="w3-bar-item w3-button">GitHub</a>
-	  <a href="#contact" style="background-color:powderblue;" class="w3-bar-item w3-button">Contact</a>
-	</div>
-	</div>
-
-	<!-- Header -->
-	<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-		<center>
-		<img class="w3-image" src="./img/TealyLogo.png" alt="TealyBear" align="top" width="800" height="700">
-			<div class="w3-display-middle w3-margin-top w3-center">
-			<h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>David</b></span> <span class="w3-hide-small w3-text-light-grey"><i> Garcia</i></span></h1>
-			</div>
-	</header>
-	<!-- /Header -->
 	
-	<!-- Page content -->
-	<div class="w3-content w3-padding" style="max-width:1564px">
-
-	<!-- About Section -->
-	<table style="width:100%" id="about">
-		<h3 class="w3-border-top w3-border-light-grey w3-padding-16">About</h3>
-		<p>More coming soon</p>
-		<div class="w3-row-padding w3-grayscale">
-			<!-- BJJ -->
-			<div class="w3-col l3 m6 w3-margin-bottom">
-			  <img src="./img/BJJ.jpg" alt="BJJ" width="300" height="200">
-			  <h3>Brazilian Jiu-Jitsu</h3>
-			  <p class="w3-opacity">Practitioner/Competitor</p>
-			  <p>I am a First-Degree Blue-Belt in Brazilian Jiu-Jitsu under Renato Tavares. Here is a photo of myself being put to sleep by a black belt at one of the many BJJ seminars I've attended.</p>
+	<body style="background-color:powderblue;">
+		<!-- Header -->
+		<header>
+			<div class="navtitle">
+				<a href="#home"><b>David Lee Garcia</b> <i>TealyBear</i></a>
 			</div>
-			<!-- Music -->
-			<div class="w3-col l3 m6 w3-margin-bottom">
-			  <img src="./img/MZK.JPG" alt="Coming Soon" width="300" height="200">
-			  <h3>Music</h3>
-			  <p class="w3-opacity">Vocalist</p>
-			  <p>I am the lead-singer of an indie-rock band with my two bestfriends! Keeps my voice in good shape for whenever the Karaoke opportunity.</p>
+			<nav class="navbuttoncontainer">
+					<a class="navbuttons" href="#about"><b>About</a>
+					<a class="navbuttons" href="#skills">Skills</a>
+					<a class="navbuttons" href="https://github.com/tealybear" target="_blank">GitHub</a>
+					<a class="navbuttons" href="#contact">Contact</a></b>
+			</nav>
+		</header>
+		<!-- /Header -->
+		<!-- Center Logo -->
+		<div class="logocontainer">
+			<img class="logo" src="./img/TealyLogo.png" alt="TealyLogo.png" align="top">
+			<img class="logotitle" src="./img/logotitle.png" alt="logotitle.png">
+		</div>
+		<!-- /Center Logo -->
+		<!-- About -->
+		<div class="aboutmecontainer" id="about">
+			<h2 class="aboutme">About me!</h2>
+			<div class="aboutmeimg">
+				<a href="https://www.linkedin.com/in/davidleegarcia/" target="_blank"><img src="./img/linkedin.png" alt="SoftwareDev" width="300" height="200"></a>
+				<h3>Software Developing</h3>
+				<h4>Fullstack Developer</h4>
+				<p>I'm currently going to school to become a Fullstack Software Developer, attending The Tech Academy based out of downtown Portland. Thinking creatively is one of my favorite things to do, and coding is a great and interesting outlet for me. I learn fast and get things done.</p>
 			</div>
-			<!-- Streaming -->
-			<div class="w3-col l3 m6 w3-margin-bottom">		
-			  <img href="http://twitch.tv/tealybear" src="./img/streampreview.jpg" alt="http://twitch.tv/tealybear" width="300" height="200">
-			  <h3>Entertainment</h3>
-			  <p class="w3-opacity">Twitch.tv Live-Streamer</p>
-			  <p>In my free time I like to socialize with my viewers and stream/play games. It's a great way to relax and to have your own little side project. I've made layouts, scene transitions, edited audio levels and even sell t-shirts. Come hang out if you'd like. ♥ </p>
-			  <p><a href="http://twitch.tv/tealybear"><button class="w3-button w3-light-grey w3-block">Come watch!</button></p></a>
+			<div class="aboutmeimg">
+				<img src="./img/BJJ.jpg" alt="BJJ" width="300" height="200">
+				<h3>Brazilian Jiu-Jitsu</h3>
+				<h4>Practitioner/Competitor</h4>
+				<p>I am a First-Degree Blue-Belt in Brazilian Jiu-Jitsu under Renato Tavares. Jiu-Jitsu is a form of Submission Wrestling and Judo. Here is a photo of myself being put to sleep by a black belt at one of the many BJJ seminars I've attended.</p>
 			</div>
-			<div class="w3-col l3 m6 w3-margin-bottom">
-				<img src="/w3images/team4.jpg" alt="Coming Soon" style="width:100%">
-				<h3>Coming Soon</h3>
-				<p class="w3-opacity">Full-Stack Software Developer</p>
-				<p>Coming Soon</p>
+			<div class="aboutmeimg">
+				<img src="./img/MZK.JPG" alt="AnnaGraham" width="300" height="200">
+				<h3>Music</h3>
+				<h4>Vocalist</h4>
+				<p>I am the lead-singer of an indie-rock band with my two bestfriends! Keeps my voice in good shape for whenever the Karaoke opportunity.</p>
+			</div>
+			<div class="aboutmeimg">
+				<a href="http://twitch.tv/tealybear" target="_blank"><img src="./img/streampreview.jpg" alt="http://twitch.tv/tealybear" width="300" height="200">
+				<h3>Entertainment</h3>
+				<h4>Twitch.tv Live-Streamer</h4>
+				<p>In my free time I like to socialize with my viewers and stream/play games. It's a great way to relax and to have your own little side project. I've made layouts, scene transitions, edited audio levels and even sell t-shirts. Come hang out if you'd like. ♥</p>
 			</div>
 		</div>
-	</div>
-	<!-- /About Section -->
-
-	<!-- Contact -->
-	<div class="w3-container w3-padding-32" id="contact">
-	<!-- GitHub Button -->
-	<a class="github-button" href="https://github.com/tealybear" aria-label="Follow @tealybear on GitHub">Follow @tealybear</a>
-	<!-- /GitHub Button -->
-
-	<!-- LinkedIn Button -->
-		<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="davidleegarcia">
-			<a class="LI-simple-link" href='https://www.linkedin.com/in/davidleegarcia?trk=profile-badge'>David Garcia</a>
-		</div>
-	</div>
-	</div>
-	<!-- /page content -->
-
-	<!-- Footer -->
-	<footer class="w3-center w3-grey w3-padding-16">
-	<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a> for now...</p>
+		<!-- /About -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<footer>
 	</footer>
-	<!-- GitHub Button Ref -->
-	<script async defer src="https://buttons.github.io/buttons.js"></script>
-	<!-- /GitHub Button Ref -->
-
-	<!-- LinkedIn Button Ref -->
-	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-	<!-- /LinkedIn Button Ref -->
-	<!-- /Footer -->
-
 	</body>
 </html>
