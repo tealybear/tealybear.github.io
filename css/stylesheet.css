@@ -157,4 +157,5 @@ a:visited {
 
 .navbuttons:hover {
 	background-color: #41e5f4;
+	transition-duration: .75s;
 }
