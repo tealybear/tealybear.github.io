@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 	background-attachment: fixed;
+	overflow: auto; 
 }
 
 header {
@@ -23,7 +24,7 @@ header {
 	border-right-color: #39cadd;
 	border-bottom-color: #39cadd;
 	vertical-align: middle;
-	opacity: .8;
+	opacity: .7;
 	width: 90%;
 	height: 70px;
 	margin: auto;
@@ -44,9 +45,11 @@ header {
 	box-sizing: inherit;
 	text-decoration: none;
 	text-shadow: 0 0 2px #000000, 0 0 10px #000000;
+	float:left;
 }
 
 .navbuttoncontainer {
+	box-sizing: inherit;
 	float: right!important;
 	padding: 8px 50px;
 	font-size: 15px;
@@ -76,21 +79,21 @@ header {
 }
 
 .logocontainer {
+	padding-top: 100px;
     position: relative;
     text-align: center;
     color: black;
-	overflow: hidden;
 }
 
 .logo {
-	opacity: .8;
+	opacity: .7;
 	height: 50%;
     width: 40%;
 }
 
 .logotitle {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 	opacity: .8;
@@ -99,8 +102,8 @@ header {
 }
 
 .aboutmecontainer {
+	overflow: auto; 
 	width: 90%;
-    height: 650px;
 	background-color: #39cadd;
     border: 5px outset blue;
 	border-top-color: #41e5f4;
@@ -108,19 +111,19 @@ header {
 	border-right-color: #39cadd;
 	border-bottom-color: #39cadd;
 	border-radius: 20px;
+	padding-top: 100px;
 	margin: auto;
-	opacity: .85;
+	opacity: .7;
+	box-shadow: 20px 20px 2px 0 rgba(0,0,0,0.16);
 }
 
 .aboutme {
 	margin: auto;
 	vertical-align: center;
 	position: absolute;
-    top: 50%;
     left: 50%;
 	text-shadow: 0 0 1px #000000, 0 0 20px #000000;
     transform: translate(-50%, -50%);
-	padding-top: 100px;
 }
 
 .aboutmeimg {
@@ -130,20 +133,27 @@ header {
 	margin: auto 5px;
     float: right;
 	width: calc(100% / 5);
-	text-align: center;	
-	
+	text-align: center;
+	text-decoration: none;
 }
+
 .aboutmeimg:hover {
 	filter: grayscale(0%);
 	opacity: 1;
 	transition-duration: 1s;
-
 }
+
 .aboutmeimg p {
 	padding: 15px;
     text-align: center;
 }
-	
+
+#imgfx {
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.16);
+	display:inline-block;
+	vertical-align: baseline;
+}
+
 a:link {
     text-decoration: none;
 	color: black;
@@ -153,7 +163,6 @@ a:visited {
     text-decoration: none;
 	color: black;
 }
-
 
 .navbuttons:hover {
 	background-color: #41e5f4;
